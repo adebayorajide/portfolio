@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: auto;
+    margin: 0;
     font-family: serif;
     position: relative;
 }
@@ -254,8 +254,8 @@ figcaption p {
 .input {
     width: 300px;
     margin-bottom: 10px;
-    border: none;
     outline: none;
+    border: none;
 }
 
 .input-name input {

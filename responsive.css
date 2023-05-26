@@ -11,6 +11,7 @@
         width: 100%;
         padding: 10px;
     }
+
     .logo {
         display: block;
         margin-left: 150px;
@@ -21,8 +22,35 @@
         padding-top: 20px;
     }
 
+    
+.logo img {
+    width: 100px;
+}
+
+.nav-link ul li a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 900;
+}
+
     .name {
         margin-left: -140px;
+    }
+
+    figure img {
+        width: 100px;
+        border-radius: 50%;
+        padding-bottom: 10px;
+    }
+    
+    figcaption h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    
+    figcaption p {
+        font-size: 12px;
+        font-weight: 500;
     }
 
     .about-me {
