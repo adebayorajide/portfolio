@@ -1,6 +1,4 @@
 const topBtnEl = document.querySelector(".top-btn");
-const contEl = document.getElementById("cont")
-const contactEl = document.querySelector(".contact");
 const x = window.matchMedia("(max-width:600px)");
 const aboutTextEl = document.getElementById("para-abt");
 
@@ -10,10 +8,6 @@ topBtnEl.addEventListener("click", ()=>{
         left: 0,
         behavior: 'smooth'
     });
-})
-
-contEl.addEventListener("click", ()=>{
-    contactEl.style.display = "block"
 })
 
 window.addEventListener("load", ()=>{
